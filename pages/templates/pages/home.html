@@ -1,0 +1,9 @@
+{% extends 'pages/base.html' %}
+{% load static %}
+{% block title %}Home{% endblock %}
+{% block content %}
+  <h1>Welcome to My Website!</h1>
+  <img src="{% static 'pages/images/profile.jpg' %}" alt="My Photo" width="300">
+  <figcaption>Image credit: Kisor by unsplash.com</figcaption>
+  <p>This is my personal space built with Django.</p>
+{% endblock %}

@@ -1,0 +1,7 @@
+{% extends 'pages/base.html' %}
+{% block title %}Contact{% endblock %}
+{% block content %}
+<h1>Contact</h1>
+<p>Email: {{ profile.email|default:'you@example.com' }}</p>
+<p>GitHub: {{ profile.github|default:'your-handle' }}</p>
+{% endblock %}

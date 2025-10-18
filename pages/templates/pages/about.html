@@ -1,0 +1,9 @@
+{% extends 'pages/base.html' %}
+{% load static %}
+{% block title %}About Me{% endblock %}
+{% block content %}
+  <h1>About Me</h1>
+  <img src="{% static 'pages/images/about_photo.jpeg' %}" alt="About Me Photo" width="250">
+  <p>Hello! I am a student learning Django and web development.</p>
+  <p>I like programming, design, and learning new technologies.</p>
+{% endblock %}
